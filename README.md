@@ -15,7 +15,7 @@ then entering the register's hex value address, i.e. 0x03 etc. (Refer to LTM9057
 Bit values within specific registers may be written to by entering their position 0 to 7,
 (Refer to LTM9057 datasheet Tables 4 - 16), using "4-Set Bit" or "Clear Bit"
 
-Customized values for current sense resistance, ADIN scaling and device address may be adjusted
+Customized values for current sense resistance, ADIN scaling and device address may be changed
 in the DC2819A-2_Linduino.ino file at lines 10 - 12
 
 
