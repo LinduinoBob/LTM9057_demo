@@ -1,4 +1,4 @@
-/*!
+﻿/*!
 LTM9057: Anyside™ I2C Power, Charge and Energy μModule Isolator
 
 @verbatim
@@ -85,7 +85,7 @@ int8_t LTM9057_register_read(uint8_t i2c_address, uint8_t register_address, uint
   return(ack);
 }
 
-// Read the specified ADC value (SENSE, VIN, ADIN) and output in human readable format to the serial console.
+// Read the specified ADC value (SENSE, VIN or ADIN) and output in human readable format to the serial console.
 int8_t LTM9057_adc_read(uint8_t i2c_address, uint8_t base_address, float *register_data)
 {
   uint8_t data_LSBs, data_MSBs;
